@@ -4,7 +4,7 @@ from flask.helpers import url_for
 from flask.templating import render_template_string
 from flask import Blueprint
 
-openai.api_key = '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'
+openai.api_key = 'ADD-YOUR-OPENAI-API-KEY-HERE'
 
 server = Flask(__name__)
 server.config['STATIC_FOLDER'] = 'static'
